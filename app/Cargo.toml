@@ -1,0 +1,8 @@
+[package]
+name = "app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+vulkano = { version = "0.34.0", features = ["serde"] }
+vulkano-util = "0.34.0"
